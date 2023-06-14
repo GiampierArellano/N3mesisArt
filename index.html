@@ -6,72 +6,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>N3mesisArt</title>
   <link rel="icon" type="image/png" href="../images/favicon.png" />
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <div>
-      <figure>
+      <figure class="Logo">
         <img src="../images/Logo.png" width="250" height="40" alt="Logo de N3mesisArt">
       </figure>
-      <nav>
+      <nav class="menu">
         <ol>
           <li>
-            <a href="#IlustracionDigital">Ilustracion Digital</a>
+            <a class="link" href="#IlustracionDigital">Ilustracion Digital</a>
           </li>
           <li>
-            <a href="#IlustracionTradicional">Ilustracion Tradicional</a>
+            <a class="link" href="#IlustracionTradicional">Ilustracion Tradicional</a>
           </li>
           <li>
-            <a href="#">Comisiones</a>
+            <a class="link"  href="#comisiones">Comisiones</a>
           </li>
         </ol>
       </nav>
     </div>
   </header>
-  <section>
-    <h1> <strong>N3mesisArt</strong> nace en el 2018 con <br> <strong>pasion</strong>
+  <section class="hero">
+    <h1> 
+      <strong>N3mesisArt</strong> nace en el 2018 con <br> <strong>pasion</strong>
       en las ilustraciones <br> digital y tradicional
     </h1>
     <img src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio">
   </section>
-  <section id="IlustracionDigital">
+  <section id="IlustracionDigital" class="DigitalIlustration">
     <h2>Ilustraciones Digitales</h2>
-    <article>
-      <h3>Retrato (Tecnicas mixtas)</h3>
-      <h6>Uso de lapices y barras de carbon digitales</h6>
-      <p><small><strong>Tiempo de trabajo:</strong> 1 semana</small></p>
-      <p><small><strong>Mira el proceso:</strong>Ruta behance</small></p>
-      <p>Este retrato fue el resultado de practica constante y compromiso
+    <article class="project">
+      <h3 class="project- title">Retrato (Tecnicas mixtas)</h3>
+      <h6 class="project-materials">Uso de lapices y barras de carbon digitales</h6>
+      <p class="project-date"><small><strong>Tiempo de trabajo:</strong> 1 semana</small></p>
+      <p class="project-url"><small><strong>Mira el proceso:</strong>Ruta behance</small></p>
+      <p class="project-description">Este retrato fue el resultado de practica constante y compromiso
         por entregar una ilustracion de calidad y que logre despertar
         los recuerdos de aquella epoca.
       </p>
-      <img src="images/RetratoDigital.png" width="300" height="300" alt="Ilustracion Digital"
-    </article>
-  </section>
-  <section id="IlustracionTradicional">
-    <h2>Ilustraciones tradicionales</h2>
-    <article>
-      <figure>
-        <img src="images/retratotradicional.jpg" width="500" height="300" alt="Ilustracion de retrato">
+      <figure class="project-imageContainer">
+        <img class="project-image" src="images/RetratoDigital.png" width="300" height="300" alt="Ilustracion Digital"
       </figure>
-      <h3>Retrato Carboncillo</h3>
-      <p>Ilustracion a pedido realizado con bastante cuidado para preservar
-        aquellos detalles que nos hacen unicos</p>
     </article>
   </section>
-  <section>
-    <h2>Costo de pedidos</h2>
-    <article>
-      <p>Te comparto el costo por comision, recuerda que el monto es un precio base. Escribeme para
+  <section id="IlustracionTradicional" class="TraditionalIlustration">
+    <h2>Ilustraciones tradicionales</h2>
+    <article class="projectTraditional">
+      <figure class="projectTraditional-imageContainer">
+        <img class="projectTraditional-image" src="images/retratotradicional.jpg" width="500" height="300" alt="Ilustracion de retrato">
+      </figure>
+      <h3 class="projectTraditional-title">Retrato Carboncillo</h3>
+      <p class="projectTraditional-description">Ilustracion a pedido realizado con bastante cuidado para preservar
+        aquellos detalles que nos hacen unicos</p>
+      <a class="projectTraditional-url" href="youtube.com">Miralo</a>
+    </article>
+  </section>
+  <section id="comisiones" class="commission">
+    <h2>Lista de precios</h2>
+    <article class="projectCommission">
+      <p class="projectCommission-description">Te comparto el costo por comision, recuerda que el monto es un precio base. Escribeme para
         resolver todas tus dudas.
       </p>
-      <figure>
-        <img src="images/Price.png" width="500" height="300" alt="Price list">
+      <figure class="projectCommission-imageContainer">
+        <img class="projectCommission-image" src="images/Price.png" width="500" height="300" alt="Price list">
       </figure>
     </article>
   </section>
-  <section>
-    <form action="suscripcion">
+  <section class="contact" id="Contacto">
+    <form action="suscripcion" class="formemail">
       <h3>Tienes algo en mente?</h3>
       <input type="text" placeholder="Dejanos tu email">
       <button>Enviar</button>
