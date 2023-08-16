@@ -7,5 +7,25 @@ h3,
 h4,
 h5,
 h6{
+    /* Agregando tipo de letra para las H */
     font-family: 'Fjalla One', sans-serif;
+    /* Peso de fuente */
+    font-weight: normal;
+}
+h1 {
+    /* Cambiando tamanio de fuente */
+    font-size: 40px;
+    /* Agregar espaciado de linea */
+    line-height: 1.5;
+    /* Cambiando el espacio entre las letras */
+    letter-spacing: -.2px;
+}
+.hero{
+    height: 300px;
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
 }
